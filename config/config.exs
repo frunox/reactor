@@ -15,7 +15,7 @@ config :reactor, ReactorWeb.Endpoint,
   url: [host: "localhost"],
   render_errors: [view: ReactorWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Reactor.PubSub,
-  live_view: [signing_salt: "eG+AmjGM"]
+  live_view: [signing_salt: "06Ezn5nAiU5KOsQ5BfKiNzZsdV/4pgIj"]
 
 # Configures the mailer
 #
