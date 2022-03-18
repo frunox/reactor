@@ -17,6 +17,8 @@ defmodule ReactorWeb.Router do
   scope "/", ReactorWeb do
     pipe_through :browser
 
+    live "/foo", FooLive
+
     get "/", PageController, :index
   end
 
